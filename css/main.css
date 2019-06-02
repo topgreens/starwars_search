@@ -1,0 +1,48 @@
+body{
+    background-image: url('../css/bg_img/Death-Star-I-copy_36ad2500.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+input#people[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 40px;
+}
+
+input[type="search" i] {
+    padding: 10px;
+}
+
+input#people[type=text]:focus {
+    width: 100%;
+}
+
+button#getData[type=submit] {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 15px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+p{
+    text-align: center;
+    color:azure;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+button#getData[type=submit]:hover {
+    background-color: #45a049;
+}
